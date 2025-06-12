@@ -7,6 +7,32 @@ body {
     background-image: url('images/gifs/star-divider.gif');
     background-repeat: repeat-y;
     background-position: right;
+
+    .post {
+  border: 1px solid #888;
+  background: #fff;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.post h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.date {
+  color: #555;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.blog-img {
+  max-width: 100%;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+    
 }
 a {
     color: blue;
