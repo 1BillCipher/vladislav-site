@@ -1,6 +1,48 @@
-
 <!DOCTYPE html>
 <html>
-<head><meta charset="UTF-8"><title>Галерея</title><link rel="stylesheet" href="style.css"></head>
-<body><h1>Галерея</h1><div>Фотографии будут добавлены здесь.</div></body>
+<head>
+  <meta charset="UTF-8">
+  <title>Галерея Владислава</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .photo {
+      width: 200px;
+      text-align: center;
+      background: #fdfdfd;
+      padding: 5px;
+      border: 2px solid #999;
+    }
+    .photo img {
+      max-width: 100%;
+      border: 1px solid #444;
+    }
+    .caption {
+      font-size: 14px;
+      color: #333;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>📷 Галерея Владислава</h1>
+  <div class="gallery">
+    <div class="photo">
+      <img src="images/01.jpg" alt="Фото 1">
+      <div class="caption">Первый снимок, лето 2024</div>
+    </div>
+    <div class="photo">
+      <img src="images/02.jpg" alt="Фото 2">
+      <div class="caption">Прогулка по лесу</div>
+    </div>
+    <!-- Добавляй новые блоки тут -->
+  </div>
+
+  <p><a href="index.html">← Назад на главную</a></p>
+</body>
 </html>
