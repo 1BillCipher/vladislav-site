@@ -1,0 +1,12 @@
+
+body {
+  background-color: #f0f0ff;
+  font-family: 'Courier New', monospace;
+  color: #333;
+  max-width: 800px;
+  margin: auto;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 10px;
+}
